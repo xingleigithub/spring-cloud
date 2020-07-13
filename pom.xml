@@ -18,6 +18,8 @@
         <java.version>1.8</java.version>
         <spring.cloud.version>2.1.0.RELEASE</spring.cloud.version>
         <spring.gateway.version>2.1.0.RELEASE</spring.gateway.version>
+        <spring.nacos-config.version>2.1.0.RELEASE</spring.nacos-config.version>
+
     </properties>
 
     <dependencies>
@@ -33,6 +35,7 @@
             <version>2.1.0.RELEASE</version>
         </dependency>
 
+        <!-- 注册 和网关配置-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
@@ -55,6 +58,14 @@
             </exclusions>
             <version>${spring.gateway.version}</version>
         </dependency>
+
+        <!-- nacos配置中心-->
+        <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+                <version>${spring.nacos-config.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>
