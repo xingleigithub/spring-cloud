@@ -1,0 +1,21 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+seata:
+  tx-service-group: user
+  service:
+    grouplist:
+      default: 172.24.62.40:8091
+    vgroup-mapping:
+      user: default
+    disable-global-transaction: false
+  client:
+    rm:
+      report-success-enable: false
