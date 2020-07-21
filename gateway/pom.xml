@@ -22,6 +22,14 @@
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>xl</groupId>
+			<artifactId>user-api</artifactId>
+			<version>2.3.2-xl-SNAPSHOT</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
@@ -63,6 +71,13 @@
 			<groupId>com.alibaba.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
 			<version>${spring.nacos-config.version}</version>
+		</dependency>
+
+		<!-- feign-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<version>2.1.5.RELEASE</version>
 		</dependency>
 
 		<!--seata 分布式事务-->
