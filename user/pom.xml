@@ -27,7 +27,13 @@
 			<artifactId>user-api</artifactId>
 			<version>${spring.custom.version}</version>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>xl</groupId>
+			<artifactId>mybatis-plus.config</artifactId>
+			<version>${spring.custom.version}</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
