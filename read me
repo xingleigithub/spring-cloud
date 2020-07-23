@@ -1,0 +1,4 @@
+本项目使用alibabaspringcloud 作为框架基础
+以alibaba seata 作为分布式事务集成
+以gateway 作为网关
+以nacos 作为注册中心和配置中心
