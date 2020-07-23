@@ -19,6 +19,7 @@
 		<spring.cloud.version>2.1.0.RELEASE</spring.cloud.version>
 		<spring.gateway.version>2.1.0.RELEASE</spring.gateway.version>
 		<spring.nacos-config.version>2.1.0.RELEASE</spring.nacos-config.version>
+		<spring.custom.version>2.3.2-xl-SNAPSHOT</spring.custom.version>
 	</properties>
 
 	<dependencies>
@@ -26,7 +27,7 @@
 		<dependency>
 			<groupId>xl</groupId>
 			<artifactId>user-api</artifactId>
-			<version>2.3.2-xl-SNAPSHOT</version>
+			<version>${spring.custom.version}</version>
 		</dependency>
 
 
