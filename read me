@@ -2,3 +2,7 @@
 以alibaba seata 作为分布式事务集成
 以gateway 作为网关
 以nacos 作为注册中心和配置中心
+
+v1.0 更新日期 2020/7/23
+1 增加feign 调用  增加hystrix熔断 和 ribbon重试机制防止 feign 调用超时
+2 增加mybatis-plus 配置
