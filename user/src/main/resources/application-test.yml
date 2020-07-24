@@ -7,6 +7,14 @@ spring:
       database: zjf
       host: 172.24.62.40
       port: 32049
+  #mq配置
+  rabbitmq:
+    host: 172.24.62.40
+    password: zjf_erp
+    port: 5672
+    publisher-confirms: true
+    username: zjf_erp
+    virtualHost: zjf_erp
   ##数据库配置
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
