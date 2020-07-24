@@ -30,7 +30,7 @@
 
 		<dependency>
 			<groupId>xl</groupId>
-			<artifactId>mybatis-plus.config</artifactId>
+			<artifactId>common.config</artifactId>
 			<version>${spring.custom.version}</version>
 		</dependency>
 

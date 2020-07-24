@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xl</groupId>
-    <artifactId>mybatis-plus.config</artifactId>
+    <artifactId>common.config</artifactId>
     <name>${project.artifactId}</name>
     <version>2.3.2-xl-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -35,6 +35,13 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus</artifactId>
             <version>2.3.3</version>
+        </dependency>
+
+        <!--引入redis连接-->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.11.0</version>
         </dependency>
 
     </dependencies>

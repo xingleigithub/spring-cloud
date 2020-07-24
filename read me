@@ -6,3 +6,6 @@
 v1.0 更新日期 2020/7/23
 1 增加feign 调用  增加hystrix熔断 和 ribbon重试机制防止 feign 调用超时
 2 增加mybatis-plus 增加mysql 连接数据库 配置
+
+v1.0 更新日期 2020/7/24
+1 增加reids 和mongo 连接  增加mysql 连接数据库 配置

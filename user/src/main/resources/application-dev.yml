@@ -8,6 +8,12 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://127.0.0.1/test?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true
     username: root
+  ##redis 配置
+  redis:
+    database: 15
+    host: 172.24.62.40
+    password: zjf@redis2020
+    port: 6379
   application:
     name: user
   cloud:
