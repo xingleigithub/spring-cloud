@@ -1,6 +1,12 @@
 server:
   port: 8083
 spring:
+  #mongo配置
+  data:
+    mongodb:
+      database: zjf
+      host: 172.24.62.40
+      port: 32049
   ##数据库配置
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
