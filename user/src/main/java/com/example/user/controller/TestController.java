@@ -2,6 +2,7 @@ package com.example.user.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.xl.common.api.R;
 
 /**
  * @Desc:
@@ -11,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
     @GetMapping(value = "/test")
-    public String version() {
-        return "第一次自己写 springcloud ";
+    public R<String> version() {
+        return R.fail("成功了");
     }
 }

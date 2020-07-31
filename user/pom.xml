@@ -30,6 +30,12 @@
 
 		<dependency>
 			<groupId>xl</groupId>
+			<artifactId>common-api</artifactId>
+			<version>${spring.custom.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>xl</groupId>
 			<artifactId>common.config</artifactId>
 			<version>${spring.custom.version}</version>
 		</dependency>
